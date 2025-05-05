@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1a73e8;
+    margin-bottom: 20px;
+}
+
+/* Event Handling Styles */
+#clickButton {
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#clickButton:hover {
+    background-color: #1557b0;
+}
+
+#hoverBox {
+    width: 200px;
+    height: 100px;
+    background-color: #e8f0fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+#hoverBox:hover {
+    background-color: #1a73e8;
+    color: white;
+    transform: scale(1.05);
+}
+
+#keypressInput {
+    padding: 8px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#doubleClickBox {
+    width: 200px;
+    height: 100px;
+    background-color: #fce8e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Interactive Elements Styles */
+#colorChangeButton {
+    padding: 10px 20px;
+    background-color: #34a853;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    margin: 20px 0;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.gallery-container img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.tabs {
+    margin: 20px 0;
+}
+
+.tab-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tab-btn {
+    padding: 8px 16px;
+    background-color: #f1f3f4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tab-btn.active {
+    background-color: #1a73e8;
+    color: white;
+}
+
+.tab-pane {
+    display: none;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+/* Form Validation Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5f6368;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1a73e8;
+}
+
+.error-message {
+    color: #d93025;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: block;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #1557b0;
+}
